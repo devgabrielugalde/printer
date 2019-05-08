@@ -21,7 +21,7 @@ function mergeExec(nome_loja) {
         merge([{src:'./logo_bemol.png',x : 0,y : 0},{src:'./nome_loja.png',x : 270,y : 10}], {Canvas: c,width: 	500,height: 125}).then(b64 => {
             base(b64, './', {'fileName' : 'teste.png', 'type' : 'png'})
         })
-    }, 2000)
+    }, 1000)
 }
 
 module.exports = {

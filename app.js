@@ -10,7 +10,7 @@ app.post('/postimprimir', function (req, res) {
     setTimeout(() => {
         printDoc1.printDoc(d.impressora, d.loja, d.data_emissao, d.matricula_atendente, d.nome_atendente, d.motivo, d.nome_cliente, d.cpf_cliente, d.loja_nota, d.nota, d.data_nota, d.descricao_produto, d.imei_antigo, d.imei_novo, d.codigo_validador, d.codigo_qr, d.txt_validador)
         res.send("OK POST")
-    }, 3000)
+    }, 1500)
 })
 
 app.post('/cancelservgar', function (req, res) {
