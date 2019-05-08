@@ -40,9 +40,10 @@ module.exports = {
 	
 		escreve('CNPJ: 04.565.289/0011-19 IE: 04.221.62-2')
 		drawLine()
-		await printer.printImage('./images/logo-bemol2.png')
-		printer.newLine()
-		escreve(loja, true, 'C', true)
+		await printer.printImage('./teste.png')
+		// printer.newLine()
+		drawLine()
+		// escreve(loja, true, 'C', true)
 		escreve('PCA ADALBERTO VALE, 32/76 FUNDOS P/ M. LEAO')
 		escreve('CENTRO, MANAUS-AM, CEP: 69097-720')
 		drawLine()
